@@ -1,0 +1,21 @@
+.user-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    .user-profile {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      justify-content: flex-start;
+      align-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .user-container {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  
