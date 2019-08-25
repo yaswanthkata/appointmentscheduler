@@ -1,0 +1,25 @@
+.react-timeslot-header {
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    width: 450px;
+    .day {
+      width: 100px;
+      text-align: center;
+      .day-title,
+      .date {
+        text-transform: uppercase;
+        opacity: 0.5;
+      }
+    }
+  }
+  .header-title {
+    padding: 10px;
+    margin-bottom: 5px;
+    h3,
+    h5 {
+      text-align: center;
+      color: white;
+    }
+  }
+  

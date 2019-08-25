@@ -1,0 +1,19 @@
+.time-slots {
+  text-align: center;
+  margin-top: 1em;
+  .time-slot {
+    cursor: pointer;
+    color: #858585;
+    line-height: 1;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+  .no-slot {
+    font-size: large;
+    padding: 11px;
+    cursor: auto;
+  }
+}

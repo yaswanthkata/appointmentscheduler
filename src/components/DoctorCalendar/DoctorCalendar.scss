@@ -1,0 +1,20 @@
+.calendar-timeslot{
+  margin-top:15px; 
+}
+
+.calendar-days {
+  display: flex;
+  margin-left: 30px;
+  .calendar-day {
+    width: 100px;
+    .day-slots {
+      text-align: center;
+      margin-top: 1em;
+    }
+  }
+}
+.confirmation{
+  font-weight: bolder;
+  margin-top: 20px;
+  font-size: 18px;
+}

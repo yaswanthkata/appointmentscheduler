@@ -1,4 +1,5 @@
 import * as React from "react";
+import { DoctorCalendar } from "../DoctorCalendar";
 import "./Doctor.scss";
 import { DoctorProfile } from "../DoctorProfile";
 import { MockDoctor } from "../../common/mock-data";
@@ -14,6 +15,7 @@ export default class Doctor extends React.Component<IDoctorProps> {
             <DoctorProfile profile={doctor.profile} />
           </div>
           <div className="user-calendar column">
+            <DoctorCalendar availableDays={doctor.availableDays} viewDays={4} />
           </div>
         </div>
       </div>

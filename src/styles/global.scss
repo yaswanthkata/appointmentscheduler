@@ -3,3 +3,52 @@
   margin: 0;
   padding: 0;
 }
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color:$white;
+  text-align: center;
+  vertical-align: middle;
+  background-color: $color-primary;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+
+button {
+  &:disabled {
+    opacity: 0.3;
+  }
+}
+
+.btn-circle{
+  border-radius: 25px;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 0.25rem;
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+  }
+}
+
+.bg-info {
+  background-color:$color-primary!important;
+}
